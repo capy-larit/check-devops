@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,52 +8,34 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>Poagilers</title>
 
 
     <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
+    <link href="poagilers.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body>
 
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <form class="navbar-form navbar-right" role="form">
-                <div class="form-group">
-                    <input type="text" placeholder="Email" class="form-control">
-                </div>
-                <div class="form-group">
-                    <input type="password" placeholder="Password" class="form-control">
-                </div>
-                <button type="submit" class="btn btn-success">Sign in</button>
-            </form>
-        </div><!--/.navbar-collapse -->
-    </div>
-</div>
 
+<nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container" style="align-items: center;">
+        <div class="navbar-header" >                
+            <p class="nav-link disabled"
+            	 style="color: white; font-size: 20px; align-items: center;
+            	  text-align: center; justify-content: center">Poágilers</p>
+        </div>
+       
+    </div>
+</nav>
+<br/>
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
-    <div class="container">
-        <h1>Hello</h1>
-        <p>This is from dev branch. </p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+    <div class="container mt-10">
+        <h1>Olá</h1>
+        <p>Esse são os integrantes do grupo:</p>
+       
     </div>
 </div>
 
@@ -61,26 +43,48 @@
     <!-- Example row of columns -->
     <div class="row">
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        	<img alt="ftKaue" src="img/kaue.png">
+            <h2>Kaue Augusto</h2>
+            <p>RM 85707</p>            
         </div>
+        
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        	<img alt="ftLari" src="img/larissa.png">
+            <h2>Larissa Alves</h2>
+            <p>RM 86351</p>            
         </div>
+        
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        	<img alt="ftDan" src="img/daniel.png">
+            <h2>Daniel Sanchez</h2>
+            <p>RM 85109</p>            
+        </div>            
+    </div>
+    <hr>
+    <div class="row">
+    	<div class="col-md-4">
+        	<img alt="ftDan" src="img/henrique.jpg">
+            <h2>Henrique Neves</h2>
+            <p>RM 84549</p>            
         </div>
+        
+        <div class="col-md-4">
+        	<img alt="ftGi" src="img/giovanna.png">
+            <h2>Giovanna de Mello</h2>
+            <p>RM 85817</p>            
+        </div>
+        
+        <div class="col-md-4">
+        	<img alt="ftEric" src="img/eric.jpg">
+            <h2>Eric Luiz</h2>
+            <p>RM 86405</p>            
+        </div>    
     </div>
 
     <hr>
 
     <footer>
-        <p>&copy; Company 2014</p>
+        <p>&copy; Poagilers Company</p>
     </footer>
 </div> <!-- /container -->
 
@@ -92,5 +96,8 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 </body>
 </html>
